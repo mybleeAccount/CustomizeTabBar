@@ -9,11 +9,24 @@
 /* Begin PBXBuildFile section */
 		27FDED511AC1714D00EA793B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDED501AC1714D00EA793B /* main.m */; };
 		27FDED541AC1714D00EA793B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDED531AC1714D00EA793B /* AppDelegate.m */; };
-		27FDED571AC1714D00EA793B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDED561AC1714D00EA793B /* ViewController.m */; };
 		27FDED5A1AC1714D00EA793B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27FDED581AC1714D00EA793B /* Main.storyboard */; };
 		27FDED5C1AC1714D00EA793B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27FDED5B1AC1714D00EA793B /* Images.xcassets */; };
 		27FDED5F1AC1714D00EA793B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27FDED5D1AC1714D00EA793B /* LaunchScreen.xib */; };
 		27FDED6B1AC1714D00EA793B /* CustomizeTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDED6A1AC1714D00EA793B /* CustomizeTabBarTests.m */; };
+		27FDED761AC1718300EA793B /* VMMain_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDED751AC1718300EA793B /* VMMain_ViewController.m */; };
+		27FDED791AC171EC00EA793B /* VMCustomizeTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDED781AC171EC00EA793B /* VMCustomizeTabBar.m */; };
+		27FDED871AC2785C00EA793B /* icon_Expences.png in Resources */ = {isa = PBXBuildFile; fileRef = 27FDED7B1AC2785B00EA793B /* icon_Expences.png */; };
+		27FDED881AC2785C00EA793B /* icon_Expences@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27FDED7C1AC2785B00EA793B /* icon_Expences@2x.png */; };
+		27FDED891AC2785C00EA793B /* icon_Expences@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27FDED7D1AC2785B00EA793B /* icon_Expences@3x.png */; };
+		27FDED8A1AC2785C00EA793B /* icon_History.png in Resources */ = {isa = PBXBuildFile; fileRef = 27FDED7E1AC2785B00EA793B /* icon_History.png */; };
+		27FDED8B1AC2785C00EA793B /* icon_History@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27FDED7F1AC2785B00EA793B /* icon_History@2x.png */; };
+		27FDED8C1AC2785C00EA793B /* icon_History@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27FDED801AC2785B00EA793B /* icon_History@3x.png */; };
+		27FDED8D1AC2785C00EA793B /* icon_setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 27FDED811AC2785B00EA793B /* icon_setting.png */; };
+		27FDED8E1AC2785C00EA793B /* icon_setting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27FDED821AC2785B00EA793B /* icon_setting@2x.png */; };
+		27FDED8F1AC2785C00EA793B /* icon_setting@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27FDED831AC2785B00EA793B /* icon_setting@3x.png */; };
+		27FDED901AC2785C00EA793B /* icon_Summary.png in Resources */ = {isa = PBXBuildFile; fileRef = 27FDED841AC2785C00EA793B /* icon_Summary.png */; };
+		27FDED911AC2785C00EA793B /* icon_Summary@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27FDED851AC2785C00EA793B /* icon_Summary@2x.png */; };
+		27FDED921AC2785C00EA793B /* icon_Summary@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27FDED861AC2785C00EA793B /* icon_Summary@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +45,28 @@
 		27FDED501AC1714D00EA793B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		27FDED521AC1714D00EA793B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		27FDED531AC1714D00EA793B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		27FDED551AC1714D00EA793B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		27FDED561AC1714D00EA793B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		27FDED591AC1714D00EA793B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27FDED5B1AC1714D00EA793B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		27FDED5E1AC1714D00EA793B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		27FDED641AC1714D00EA793B /* CustomizeTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomizeTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27FDED691AC1714D00EA793B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27FDED6A1AC1714D00EA793B /* CustomizeTabBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomizeTabBarTests.m; sourceTree = "<group>"; };
+		27FDED741AC1718300EA793B /* VMMain_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMMain_ViewController.h; sourceTree = "<group>"; };
+		27FDED751AC1718300EA793B /* VMMain_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMMain_ViewController.m; sourceTree = "<group>"; };
+		27FDED771AC171EC00EA793B /* VMCustomizeTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMCustomizeTabBar.h; sourceTree = "<group>"; };
+		27FDED781AC171EC00EA793B /* VMCustomizeTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMCustomizeTabBar.m; sourceTree = "<group>"; };
+		27FDED7B1AC2785B00EA793B /* icon_Expences.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_Expences.png; sourceTree = "<group>"; };
+		27FDED7C1AC2785B00EA793B /* icon_Expences@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_Expences@2x.png"; sourceTree = "<group>"; };
+		27FDED7D1AC2785B00EA793B /* icon_Expences@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_Expences@3x.png"; sourceTree = "<group>"; };
+		27FDED7E1AC2785B00EA793B /* icon_History.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_History.png; sourceTree = "<group>"; };
+		27FDED7F1AC2785B00EA793B /* icon_History@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_History@2x.png"; sourceTree = "<group>"; };
+		27FDED801AC2785B00EA793B /* icon_History@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_History@3x.png"; sourceTree = "<group>"; };
+		27FDED811AC2785B00EA793B /* icon_setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_setting.png; sourceTree = "<group>"; };
+		27FDED821AC2785B00EA793B /* icon_setting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_setting@2x.png"; sourceTree = "<group>"; };
+		27FDED831AC2785B00EA793B /* icon_setting@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_setting@3x.png"; sourceTree = "<group>"; };
+		27FDED841AC2785C00EA793B /* icon_Summary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_Summary.png; sourceTree = "<group>"; };
+		27FDED851AC2785C00EA793B /* icon_Summary@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_Summary@2x.png"; sourceTree = "<group>"; };
+		27FDED861AC2785C00EA793B /* icon_Summary@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_Summary@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +108,16 @@
 		27FDED4D1AC1714D00EA793B /* CustomizeTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				27FDED7A1AC2783800EA793B /* Image */,
 				27FDED521AC1714D00EA793B /* AppDelegate.h */,
 				27FDED531AC1714D00EA793B /* AppDelegate.m */,
-				27FDED551AC1714D00EA793B /* ViewController.h */,
-				27FDED561AC1714D00EA793B /* ViewController.m */,
 				27FDED581AC1714D00EA793B /* Main.storyboard */,
 				27FDED5B1AC1714D00EA793B /* Images.xcassets */,
 				27FDED5D1AC1714D00EA793B /* LaunchScreen.xib */,
+				27FDED741AC1718300EA793B /* VMMain_ViewController.h */,
+				27FDED751AC1718300EA793B /* VMMain_ViewController.m */,
+				27FDED771AC171EC00EA793B /* VMCustomizeTabBar.h */,
+				27FDED781AC171EC00EA793B /* VMCustomizeTabBar.m */,
 				27FDED4E1AC1714D00EA793B /* Supporting Files */,
 			);
 			path = CustomizeTabBar;
@@ -117,6 +147,25 @@
 				27FDED691AC1714D00EA793B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27FDED7A1AC2783800EA793B /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				27FDED7B1AC2785B00EA793B /* icon_Expences.png */,
+				27FDED7C1AC2785B00EA793B /* icon_Expences@2x.png */,
+				27FDED7D1AC2785B00EA793B /* icon_Expences@3x.png */,
+				27FDED7E1AC2785B00EA793B /* icon_History.png */,
+				27FDED7F1AC2785B00EA793B /* icon_History@2x.png */,
+				27FDED801AC2785B00EA793B /* icon_History@3x.png */,
+				27FDED811AC2785B00EA793B /* icon_setting.png */,
+				27FDED821AC2785B00EA793B /* icon_setting@2x.png */,
+				27FDED831AC2785B00EA793B /* icon_setting@3x.png */,
+				27FDED841AC2785C00EA793B /* icon_Summary.png */,
+				27FDED851AC2785C00EA793B /* icon_Summary@2x.png */,
+				27FDED861AC2785C00EA793B /* icon_Summary@3x.png */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +249,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				27FDED5A1AC1714D00EA793B /* Main.storyboard in Resources */,
+				27FDED891AC2785C00EA793B /* icon_Expences@3x.png in Resources */,
+				27FDED8B1AC2785C00EA793B /* icon_History@2x.png in Resources */,
 				27FDED5F1AC1714D00EA793B /* LaunchScreen.xib in Resources */,
 				27FDED5C1AC1714D00EA793B /* Images.xcassets in Resources */,
+				27FDED8C1AC2785C00EA793B /* icon_History@3x.png in Resources */,
+				27FDED881AC2785C00EA793B /* icon_Expences@2x.png in Resources */,
+				27FDED8F1AC2785C00EA793B /* icon_setting@3x.png in Resources */,
+				27FDED901AC2785C00EA793B /* icon_Summary.png in Resources */,
+				27FDED921AC2785C00EA793B /* icon_Summary@3x.png in Resources */,
+				27FDED871AC2785C00EA793B /* icon_Expences.png in Resources */,
+				27FDED8A1AC2785C00EA793B /* icon_History.png in Resources */,
+				27FDED8D1AC2785C00EA793B /* icon_setting.png in Resources */,
+				27FDED911AC2785C00EA793B /* icon_Summary@2x.png in Resources */,
+				27FDED8E1AC2785C00EA793B /* icon_setting@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27FDED571AC1714D00EA793B /* ViewController.m in Sources */,
+				27FDED791AC171EC00EA793B /* VMCustomizeTabBar.m in Sources */,
 				27FDED541AC1714D00EA793B /* AppDelegate.m in Sources */,
 				27FDED511AC1714D00EA793B /* main.m in Sources */,
+				27FDED761AC1718300EA793B /* VMMain_ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

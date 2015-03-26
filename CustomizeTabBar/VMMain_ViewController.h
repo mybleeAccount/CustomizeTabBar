@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  VMMain_ViewController.h
 //  CustomizeTabBar
 //
 //  Created by Vu Mai on 3/24/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface VMMain_ViewController : UIViewController
 
 @end
-
